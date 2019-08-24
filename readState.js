@@ -7,5 +7,9 @@
 *
 *
 * react native https://reactnative.cn/docs/more-resources/
+*
+* react router https://reacttraining.com/react-router/web/guides/quick-start
+*
+* mobx https://mobx.js.org/
 * */
 console.log('read state 文档阅读')
