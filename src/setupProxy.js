@@ -15,7 +15,3 @@ module.exports = function (app) {
   }))
 }
 
-// TODO https://www.html.cn/create-react-app/docs/using-https-in-development/
-// TODO 读至 在开发环境中使用 HTTPS
-// TODO https://zh-hans.reactjs.org/docs/hello-world.html
-// TODO 读至 在本指南中，我们将研究 Rea
