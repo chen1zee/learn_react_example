@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 // import App from './App';
-import Clock from "./learn/stateAndLifecycle/stateAndLifecycle"
-
+// import Clock from "./learn/stateAndLifecycle/stateAndLifecycle"
+import LoginButton from "./learn/handlingEvents/handlingEvents"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
-  <Clock />,
+  <LoginButton />,
   document.getElementById('root')
 )
 
