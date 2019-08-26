@@ -2,8 +2,8 @@
 * 读至 在开发环境中使用 HTTPS
 * create-react-app https://www.html.cn/create-react-app/docs/using-https-in-development/
 *
-* 读至 表单
-* react js https://zh-hans.reactjs.org/docs/forms.html
+* 读至 异常捕获边界（Error boundaries）
+* react js https://zh-hans.reactjs.org/docs/code-splitting.html#error-boundaries
 *
 *
 * react native https://reactnative.cn/docs/more-resources/

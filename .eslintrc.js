@@ -6,6 +6,7 @@ module.exports = {
   root: true,
   extends: "react-app",
   rules: {
-    "no-useless-constructor": 0
+    "no-useless-constructor": 0,
+    "eqeqeq": 0
   }
 }

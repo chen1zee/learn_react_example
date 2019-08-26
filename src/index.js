@@ -4,11 +4,17 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 // import App from './App';
 // import Clock from "./learn/stateAndLifecycle/stateAndLifecycle"
-import LoginButton from "./learn/handlingEvents/handlingEvents"
+// import LoginButton from "./learn/handlingEvents/handlingEvents"
+// import Forms from "./learn/forms/forms"
+// import HandleMultiple from "./learn/forms/handleMultiple"
+// import Calculator from "./learn/liftingStateUp/liftingStateUp"
+// import WelcoomeDialog from "./learn/compositionVsInheritance/compositionVsInheritance"
+// import Parent from "./learn/accessibility/accessibility"
+import MyComponent from "./learn/codeSplitting/codeSplitting"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
-  <LoginButton />,
+  <MyComponent />,
   document.getElementById('root')
 )
 
