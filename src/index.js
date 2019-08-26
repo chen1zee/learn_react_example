@@ -10,11 +10,13 @@ import * as serviceWorker from './serviceWorker';
 // import Calculator from "./learn/liftingStateUp/liftingStateUp"
 // import WelcoomeDialog from "./learn/compositionVsInheritance/compositionVsInheritance"
 // import Parent from "./learn/accessibility/accessibility"
-import MyComponent from "./learn/codeSplitting/codeSplitting"
+// import MyComponent from "./learn/codeSplitting/codeSplitting"
+// import App from "./learn/context/context"
+import App from "./learn/context/dynamicValue"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
-  <MyComponent />,
+  <App />,
   document.getElementById('root')
 )
 

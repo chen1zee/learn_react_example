@@ -19,7 +19,7 @@ function UserInfo(props) {
 }
 
 function Comment(props) {
-  const formatDate = date => "formatDateTODO"
+  const formatDate = () => "1233213123---123123"
   return (
     <div className="Comment">
       {/** userInfo */}
