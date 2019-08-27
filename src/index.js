@@ -12,7 +12,13 @@ import * as serviceWorker from './serviceWorker';
 // import Parent from "./learn/accessibility/accessibility"
 // import MyComponent from "./learn/codeSplitting/codeSplitting"
 // import App from "./learn/context/context"
-import App from "./learn/context/dynamicValue"
+// import App from "./learn/context/dynamicValue"
+// import App from "./learn/errorBoundaries/errorBoundaries"
+// import App from "./learn/forwardingRefs/forwardRefs"
+// import App from "./learn/forwardingRefs/hocRef"
+// import App from "./learn/fragments/fragments"
+// import App from "./learn/hoc/hoc"
+import App from "./learn/integratingWithOtherLib/integratingWithOtherLib"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
