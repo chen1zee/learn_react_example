@@ -18,11 +18,17 @@ import * as serviceWorker from './serviceWorker';
 // import App from "./learn/forwardingRefs/hocRef"
 // import App from "./learn/fragments/fragments"
 // import App from "./learn/hoc/hoc"
-import App from "./learn/integratingWithOtherLib/integratingWithOtherLib"
+// import App from "./learn/integratingWithOtherLib/integratingWithOtherLib"
+// import ListOfTenThings from "./learn/jsxInDepth/jsxInDepth"
+// import CounterButton from "./learn/optimizingPerform/optimizingPerform"
+// import App from "./learn/portals/portals"
+// import App from "./learn/profiler/profiler"
+// import App from "./learn/refAndTheDom/refAndTheDom"
+import MouseTracker from "./learn/renderProps/renderProps"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
-  <App />,
+  <MouseTracker />,
   document.getElementById('root')
 )
 
