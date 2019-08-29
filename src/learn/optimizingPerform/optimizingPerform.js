@@ -11,7 +11,6 @@ class CounterButton extends React.PureComponent {
     }
   }
   handleClick = () => {
-    console.log("123")
     this.setState(state => ({
       aaa: Object.assign({}, state.aaa, {count: ++state.aaa.count})
     }))

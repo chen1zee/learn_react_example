@@ -24,11 +24,12 @@ import * as serviceWorker from './serviceWorker';
 // import App from "./learn/portals/portals"
 // import App from "./learn/profiler/profiler"
 // import App from "./learn/refAndTheDom/refAndTheDom"
-import MouseTracker from "./learn/renderProps/renderProps"
+// import MouseTracker from "./learn/renderProps/renderProps"
+import App from "./hook_learn/hookEffect"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
-  <MouseTracker />,
+  <App />,
   document.getElementById('root')
 )
 
