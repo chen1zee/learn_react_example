@@ -25,11 +25,14 @@ import * as serviceWorker from './serviceWorker';
 // import App from "./learn/profiler/profiler"
 // import App from "./learn/refAndTheDom/refAndTheDom"
 // import MouseTracker from "./learn/renderProps/renderProps"
-import App from "./hook_learn/hookEffect"
+// import App from "./hook_learn/hookEffect"
+// import Counter from "./hook_learn/multiHooks"
+// import Example from "./hook_learn/oldPropsState"
+import MeasureExample from "./hook_learn/mesureDOM"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
-  <App />,
+  <MeasureExample />,
   document.getElementById('root')
 )
 

@@ -5,8 +5,13 @@
 module.exports = {
   root: true,
   extends: "react-app",
+  plugins: [
+    "react-hooks"
+  ],
   rules: {
     "no-useless-constructor": 0,
-    "eqeqeq": 0
+    "eqeqeq": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
