@@ -1,5 +1,3 @@
-'use strict';
-
 const fs = require('fs');
 const isWsl = require('is-wsl');
 const path = require('path');
@@ -364,6 +362,7 @@ module.exports = function(webpackEnv) {
                 ),
                 
                 plugins: [
+                  ["@babel/plugin-proposal-decorators", { "legacy": true }],
                   [
                     require.resolve('babel-plugin-named-asset-import'),
                     {
@@ -399,6 +398,9 @@ module.exports = function(webpackEnv) {
                     require.resolve('babel-preset-react-app/dependencies'),
                     { helpers: true },
                   ],
+                ],
+                plugins: [
+                  ["@babel/plugin-proposal-decorators", { "legacy": true }]
                 ],
                 cacheDirectory: true,
                 cacheCompression: isEnvProduction,

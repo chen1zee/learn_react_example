@@ -2,8 +2,8 @@
 * 读至 在开发环境中使用 HTTPS
 * create-react-app https://www.html.cn/create-react-app/docs/using-https-in-development/
 *
-* 读至 eact elements are plain objects representing the component type (e.g. App) and the props.
-* react js https://zh-hans.reactjs.org/docs/implementation-notes.html
+* DONE 读至 也可以使用 DOM API 来存储事件处理器需要的数据。
+* DONE react js https://zh-hans.reactjs.org/docs/faq-functions.html
 *
 *
 * react native https://reactnative.cn/docs/more-resources/

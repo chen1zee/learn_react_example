@@ -28,11 +28,15 @@ import * as serviceWorker from './serviceWorker';
 // import App from "./hook_learn/hookEffect"
 // import Counter from "./hook_learn/multiHooks"
 // import Example from "./hook_learn/oldPropsState"
-import MeasureExample from "./hook_learn/mesureDOM"
+// import MeasureExample from "./hook_learn/mesureDOM"
+// import Game from "./tutorial/Game.js"
+import App from "./mobx/ObservableState"
 // ReactDOM.render(<App />, document.getElementById('root'));
 
+import "./mobx/tenMinStarted"
+
 ReactDOM.render(
-  <MeasureExample />,
+  <App />,
   document.getElementById('root')
 )
 
